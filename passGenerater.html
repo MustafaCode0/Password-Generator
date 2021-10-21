@@ -1,0 +1,92 @@
+<html>
+
+<head>
+<title>PasswordGenerator</title>
+
+<script src= "main.js" defer></script>
+
+<style>
+
+body{
+	background-image:url("bg.jpg");
+	background-size:cover;
+	background-postion:center center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+h1{
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	background-color:darkgray;
+	border-radius:5px;
+	
+}
+
+.container{
+	
+	background-color:lightgray;
+	
+
+}
+
+.selections{
+	display:flex;
+	flex-direction:column;
+	justify-content:left-side;
+	align-items:left-side;
+}
+
+.but{
+	background-color:darkgray;
+	border-color:white;
+	margin-left:120;
+	margin-top:10;
+	display:flex;
+	margin-bottom:5px;
+	
+}
+
+
+.pwd{
+	font-size:25px;
+}
+
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+
+
+
+<div class ="container">
+
+	<h1>PasswordGenerator</h1>
+	
+	<label class="selections">
+			
+		<div id="text">The password will generate from alphabets numbers and symbols</div>
+		
+		<div id = "pwd" class="pwd">click below to see the password</div>
+		
+	</label>
+	
+	<button id="geneButton" class="but">Generate</button>
+
+</div>
+
+
+
+
+
+</body>
+
+</html>
